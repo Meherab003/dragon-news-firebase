@@ -3,7 +3,7 @@ import moment from 'moment';
 
 const Header = () => {
     return (
-        <div className='flex flex-col space-y-3'>
+        <div className='flex flex-col space-y-3 mt-5'>
             <div>
             <img className='mx-auto' src={logo} alt="" />
             </div>
