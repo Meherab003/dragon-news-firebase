@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: "'Poppins', sans-serif",
+        turret: "'Turret Road', sans-serif"
+      }
+    },
   },
   plugins: [require("daisyui")],
 }
